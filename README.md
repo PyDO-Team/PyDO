@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## PyDO - An Online Theme Park (OTP) Server Emulator
 
-You can use the [editor on GitHub](https://github.com/PyDO-Team/PyDO/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+PyDO is an open source, re-implementation of Disney's Online Theme Park (OTP) server that powered their MMO's from 2001 - 2013. Built atop of the [Panda3D](http://www.panda3d.org) game engine and written in Python, PyDO is an easy to use, easy to debug solution for emulating said MMO's while also keeping speed in mind. PyDO is suitable for use with both Toontown and Pirates Online, but does NOT provide any game specific code. To learn how PyDO works, and how you can use it, vist the [Wiki](). If you are interested in contributing to the project, or you have questions, join the [Discord Server](). Thanks to PyDO's [BSD 3-Clause Licence](https://github.com/PyDO-Team/PyDO/blob/master/LICENSE), you are free to re-distribute and use this software in accordance with the licence.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+PyDO is still very early on in its life, and while you're free to use it as you wish, we recommend holding off on using it in a production environment until it's first release.
 
-### Markdown
+### Building
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As PyDO is written in Python, there is no need to build the source in order to use it. The only requirement is to have the latest, stable release of the Panda3D SDK installed. The latest version of the SDK can be downloaded [here](https://www.panda3d.org/download.php?sdk).
 
-```markdown
-Syntax highlighted code block
+### Licence
 
-# Header 1
-## Header 2
-### Header 3
+PyDO is available under the BSD 3-Clause Licence. The terms of this licence can be found in the 'LICENCE' file contained within this repository.
 
-- Bulleted
-- List
+### Contributing
 
-1. Numbered
-2. List
+If you are interested in contributing to PyDO, join the [Discord Server](). We often discuss the direction of the project and any active bugs with contributors.
 
-**Bold** and _Italic_ and `Code` text
+### Reporting Issues
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PyDO-Team/PyDO/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you believe you have found a bug or issue with PyDO, feel free to open an issue in this repository. As PyDO is still early on in it's life, it can be expected to be quite buggy.
